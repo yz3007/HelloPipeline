@@ -3,7 +3,9 @@ pipeline{
 	stages{
 		stage('Stage 1'){
 			steps{
+				pwd()
 				echo "yufei zhao"
+
 			}
 		}
 	}
