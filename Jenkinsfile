@@ -3,9 +3,10 @@ pipeline{
 	stages{
 		stage('Stage 1'){
 			steps{
-				cd ~/test-pipeline/
-				javac Hello.java
-				java Hello
+				pwd
+				#cd ~/test-pipeline/
+				#javac Hello.java
+				#java Hello
 			}
 		}
 	}
