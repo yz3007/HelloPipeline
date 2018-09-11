@@ -5,8 +5,11 @@ pipeline{
 			steps{
 				echo pwd()
 				echo "yufei zhao"
-				javac Hello.java
-				java Hello
+				sh '''
+					java -version
+					javac Hello.java
+					java Hello
+				'''
 
 			}
 		}
